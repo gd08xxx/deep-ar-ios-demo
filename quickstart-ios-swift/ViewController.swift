@@ -11,13 +11,6 @@ import DeepAR
 import AVKit
 import AVFoundation
 
-enum RecordingMode : String {
-    case photo
-    case video
-    case lowQualityVideo
-}
-
-
 enum Effects: String, CaseIterable {
     case Bloobloom_BB_172_optimist_in_honey_honey_Clear_v2 = "Bloobloom-BB-172-optimist-in-honey-honey-Clear-v2.deepar"
     case Prada_Linea_Rossa_PS_54YS_1BO06U_74_03_v2_Compressed = "Prada Linea Rossa-PS 54YS 1BO06U 74-03-v2-Compressed.deepar"
@@ -37,11 +30,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var previousButton: UIButton!
     @IBOutlet weak var nextButton: UIButton!
-    @IBOutlet weak var recordActionButton: UIButton!
     
-    @IBOutlet weak var lowQVideoButton: UIButton!
-    @IBOutlet weak var videoButton: UIButton!
-    @IBOutlet weak var photoButton: UIButton!
     @IBOutlet weak var arViewContainer: UIView!
     
     private var deepAR: DeepAR!
@@ -58,15 +47,6 @@ class ViewController: UIViewController {
         return Effects.allCases.map { $0.rawValue.path }
     }
     
-    private var buttonRecordingModePairs: [(UIButton, RecordingMode)] = []
-    private var currentRecordingMode: RecordingMode! {
-        didSet {
-            updateRecordingModeAppearance()
-        }
-    }
-    
-    private var isRecordingInProcess: Bool = false
-    
     // MARK: - Lifecycle -
     
     override func viewDidLoad() {
@@ -74,8 +54,7 @@ class ViewController: UIViewController {
         
         setupDeepARAndCamera()
         addTargets()
-        buttonRecordingModePairs = [ (photoButton, RecordingMode.photo), (videoButton, RecordingMode.video), (lowQVideoButton, RecordingMode.lowQualityVideo)]
-        currentRecordingMode = .photo    }
+    }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -130,19 +109,8 @@ class ViewController: UIViewController {
     
     private func addTargets() {
         switchCameraButton.addTarget(self, action: #selector(didTapSwitchCameraButton), for: .touchUpInside)
-        recordActionButton.addTarget(self, action: #selector(didTapRecordActionButton), for: .touchUpInside)
         previousButton.addTarget(self, action: #selector(didTapPreviousButton), for: .touchUpInside)
         nextButton.addTarget(self, action: #selector(didTapNextButton), for: .touchUpInside)
-    
-        photoButton.addTarget(self, action: #selector(didTapPhotoButton), for: .touchUpInside)
-        videoButton.addTarget(self, action: #selector(didTapVideoButton), for: .touchUpInside)
-        lowQVideoButton.addTarget(self, action: #selector(didTapLowQVideoButton), for: .touchUpInside)
-    }
-    
-    private func updateRecordingModeAppearance() {
-        buttonRecordingModePairs.forEach { (button, recordingMode) in
-            button.isSelected = recordingMode == currentRecordingMode
-        }
     }
     
     @objc
@@ -172,53 +140,6 @@ class ViewController: UIViewController {
     }
     
     @objc
-    private func didTapRecordActionButton() {
-        
-        if (currentRecordingMode == RecordingMode.photo) {
-            deepAR.takeScreenshot()
-            return
-        }
-        
-        if (isRecordingInProcess) {
-            deepAR.finishVideoRecording()
-            isRecordingInProcess = false
-            return
-        }
-        
-        let width: Int32 = Int32(deepAR.renderingResolution.width)
-        let height: Int32 =  Int32(deepAR.renderingResolution.height)
-        
-        if (currentRecordingMode == RecordingMode.video) {
-            if(deepAR.videoRecordingWarmupEnabled) {
-                deepAR.resumeVideoRecording()
-            } else {
-                deepAR.startVideoRecording(withOutputWidth: width, outputHeight: height)
-            }
-            isRecordingInProcess = true
-            return
-        }
-        
-        if (currentRecordingMode == RecordingMode.lowQualityVideo) {
-            if(deepAR.videoRecordingWarmupEnabled) {
-                NSLog("Can't change video recording settings when video recording warmap enabled")
-                return
-            }
-            let videoQuality = 0.1
-            let bitrate =  1250000
-            let videoSettings:[AnyHashable : AnyObject] = [
-                AVVideoQualityKey : (videoQuality as AnyObject),
-                AVVideoAverageBitRateKey : (bitrate as AnyObject)
-            ]
-            
-            let frame = CGRect(x: 0, y: 0, width: 1, height: 1)
-            
-            deepAR.startVideoRecording(withOutputWidth: width, outputHeight: height, subframe: frame, videoCompressionProperties: videoSettings, recordAudio: true)
-            isRecordingInProcess = true
-        }
-        
-    }
-    
-    @objc
     private func didTapPreviousButton() {
         var path: String?
         effectIndex = (effectIndex - 1 < 0) ? (effectPaths.count - 1) : (effectIndex - 1)
@@ -234,21 +155,6 @@ class ViewController: UIViewController {
         deepAR.switchEffect(withSlot: "effect", path: path)
     }
 
-    @objc
-    private func didTapPhotoButton() {
-        currentRecordingMode = .photo
-    }
-    
-    @objc
-    private func didTapVideoButton() {
-        currentRecordingMode = .video
-    }
-    
-    @objc
-    private func didTapLowQVideoButton() {
-        currentRecordingMode = .lowQualityVideo
-    }
-    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
         let touch = touches.first
@@ -361,4 +267,3 @@ extension String {
         return Bundle.main.path(forResource: self, ofType: nil)
     }
 }
-

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24128" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24063"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -55,24 +55,17 @@
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="uJd-FE-xhl">
-                                <rect key="frame" x="0.0" y="720" width="414" height="102"/>
+                                <rect key="frame" x="0.0" y="718" width="414" height="70"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oM4-3a-Dc3">
-                                        <rect key="frame" x="0.0" y="16" width="138" height="70"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="207" height="70"/>
                                         <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="50"/>
                                         <state key="normal" title="‹">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lGP-cD-zyV">
-                                        <rect key="frame" x="138" y="0.0" width="138" height="102"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="75"/>
-                                        <state key="normal" title="◉">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bex-8d-pBb">
-                                        <rect key="frame" x="276" y="16" width="138" height="70"/>
+                                        <rect key="frame" x="207" y="0.0" width="207" height="70"/>
                                         <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="50"/>
                                         <state key="normal" title="›">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -80,37 +73,8 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="zkT-19-D7n" userLabel="Recording Mode Stack View">
-                                <rect key="frame" x="76.5" y="671" width="261" height="44"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pFL-eO-IRm" userLabel="Photo">
-                                        <rect key="frame" x="0.0" y="0.0" width="45" height="44"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <state key="normal" title="Photo">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mIr-ia-DAb" userLabel="Video">
-                                        <rect key="frame" x="85" y="0.0" width="44" height="44"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <state key="normal" title="Video">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wtJ-rs-9IX" userLabel="LowQ Video">
-                                        <rect key="frame" x="169" y="0.0" width="92" height="44"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <state key="normal" title="LowQ Video">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="3no-sp-C6I"/>
-                                </constraints>
-                            </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OLW-sN-mKx">
-                                <rect key="frame" x="24" y="64" width="44" height="44"/>
+                                <rect key="frame" x="24" y="112" width="44" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="MBk-dg-Yhn"/>
                                     <constraint firstAttribute="width" constant="44" id="Z8O-KQ-a84"/>
@@ -126,25 +90,17 @@
                             <constraint firstAttribute="trailing" secondItem="aUr-fD-BmM" secondAttribute="trailing" id="8dD-ih-IzP"/>
                             <constraint firstItem="OLW-sN-mKx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="9Sc-PA-PSR"/>
                             <constraint firstItem="aUr-fD-BmM" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="AjR-3g-hj2"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="zkT-19-D7n" secondAttribute="trailing" constant="16" id="FUN-97-89v"/>
                             <constraint firstAttribute="bottom" secondItem="aUr-fD-BmM" secondAttribute="bottom" id="NFs-b7-EBH"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uJd-FE-xhl" secondAttribute="trailing" id="UXo-bD-Iwm"/>
-                            <constraint firstItem="zkT-19-D7n" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="WV2-iq-dyy"/>
-                            <constraint firstItem="zkT-19-D7n" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Xq3-ze-AOT"/>
                             <constraint firstItem="OLW-sN-mKx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="ZHp-0R-CDf"/>
                             <constraint firstItem="uJd-FE-xhl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="l01-UP-hOr"/>
-                            <constraint firstItem="uJd-FE-xhl" firstAttribute="top" secondItem="zkT-19-D7n" secondAttribute="bottom" constant="5" id="tFD-mC-RHN"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="arViewContainer" destination="aUr-fD-BmM" id="F8C-YJ-fbA"/>
-                        <outlet property="lowQVideoButton" destination="wtJ-rs-9IX" id="VNx-9i-zmq"/>
                         <outlet property="nextButton" destination="bex-8d-pBb" id="ItT-Ug-kaq"/>
-                        <outlet property="photoButton" destination="pFL-eO-IRm" id="F0K-Tl-reO"/>
                         <outlet property="previousButton" destination="oM4-3a-Dc3" id="3EK-CI-k60"/>
-                        <outlet property="recordActionButton" destination="lGP-cD-zyV" id="Fgi-MP-GBu"/>
                         <outlet property="switchCameraButton" destination="OLW-sN-mKx" id="mt6-tE-rvb"/>
-                        <outlet property="videoButton" destination="mIr-ia-DAb" id="pAj-sD-W4f"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
