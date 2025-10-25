@@ -12,6 +12,8 @@
 		19FB9DAC239E65ED0056E3AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19FB9DAA239E65ED0056E3AB /* Main.storyboard */; };
 		19FB9DAE239E65EE0056E3AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19FB9DAD239E65EE0056E3AB /* Assets.xcassets */; };
 		19FB9DB1239E65EE0056E3AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19FB9DAF239E65EE0056E3AB /* LaunchScreen.storyboard */; };
+		566CCCB02EAC84CD0036D0B7 /* LicenseKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = 566CCCAF2EAC84CD0036D0B7 /* LicenseKey.plist */; };
+		566CCCB22EAC85430036D0B7 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 566CCCB12EAC85430036D0B7 /* .gitignore */; };
 		662DAA532A65E36D002DE21D /* DeepAR in Frameworks */ = {isa = PBXBuildFile; productRef = 662DAA522A65E36D002DE21D /* DeepAR */; };
 		8DF1C83C2852328C002E231B /* Vendetta_Mask.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DF1C82A2852328B002E231B /* Vendetta_Mask.deepar */; };
 		8DF1C83D2852328C002E231B /* Humanoid.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DF1C82B2852328B002E231B /* Humanoid.deepar */; };
@@ -55,6 +57,8 @@
 		19FB9DAD239E65EE0056E3AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19FB9DB0239E65EE0056E3AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19FB9DB2239E65EE0056E3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		566CCCAF2EAC84CD0036D0B7 /* LicenseKey.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = LicenseKey.plist; sourceTree = "<group>"; };
+		566CCCB12EAC85430036D0B7 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		8DF1C82A2852328B002E231B /* Vendetta_Mask.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Vendetta_Mask.deepar; sourceTree = "<group>"; };
 		8DF1C82B2852328B002E231B /* Humanoid.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Humanoid.deepar; sourceTree = "<group>"; };
 		8DF1C82C2852328B002E231B /* Fire_Effect.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fire_Effect.deepar; sourceTree = "<group>"; };
@@ -140,6 +144,8 @@
 				19FB9DAD239E65EE0056E3AB /* Assets.xcassets */,
 				19FB9DAF239E65EE0056E3AB /* LaunchScreen.storyboard */,
 				19FB9DB2239E65EE0056E3AB /* Info.plist */,
+				566CCCAF2EAC84CD0036D0B7 /* LicenseKey.plist */,
+				566CCCB12EAC85430036D0B7 /* .gitignore */,
 			);
 			path = "quickstart-ios-swift";
 			sourceTree = "<group>";
@@ -214,6 +220,7 @@
 				8DF1C83F2852328C002E231B /* Neon_Devil_Horns.deepar in Resources */,
 				8DF1C84D2852328C002E231B /* Pixel_Hearts.deepar in Resources */,
 				8DF1C8442852328C002E231B /* Emotion_Meter.deepar in Resources */,
+				566CCCB22EAC85430036D0B7 /* .gitignore in Resources */,
 				8DF1C8432852328C002E231B /* viking_helmet.deepar in Resources */,
 				8DF1C83C2852328C002E231B /* Vendetta_Mask.deepar in Resources */,
 				19FB9DAE239E65EE0056E3AB /* Assets.xcassets in Resources */,
@@ -227,6 +234,7 @@
 				8DF1C8452852328C002E231B /* Emotions_Exaggerator.deepar in Resources */,
 				8DF1C8412852328C002E231B /* MakeupLook.deepar in Resources */,
 				8DF1C8492852328C002E231B /* Ping_Pong.deepar in Resources */,
+				566CCCB02EAC84CD0036D0B7 /* LicenseKey.plist in Resources */,
 				8DF1C8402852328C002E231B /* Hope.deepar in Resources */,
 				8DF1C83E2852328C002E231B /* Fire_Effect.deepar in Resources */,
 				8DF1C8422852328C002E231B /* Split_View_Look.deepar in Resources */,
@@ -389,7 +397,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 75MS3RDT45;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/quickstart-ios-swift/Frameworks",
@@ -413,7 +421,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 75MS3RDT45;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/quickstart-ios-swift/Frameworks",

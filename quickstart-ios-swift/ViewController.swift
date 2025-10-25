@@ -116,7 +116,16 @@ class ViewController: UIViewController {
         
         self.deepAR = DeepAR()
         self.deepAR.delegate = self
-        self.deepAR.setLicenseKey("your_license_key_here")
+        
+        let licenseKey: String
+        if let path = Bundle.main.path(forResource: "LicenseKey", ofType: "plist"),
+           let dict = NSDictionary(contentsOfFile: path),
+           let key = dict["DeepARLicenseKey"] as? String {
+            licenseKey = key
+        } else {
+            fatalError("DeepAR license key is missing from LicenseKey.plist!")
+        }
+        self.deepAR.setLicenseKey(licenseKey)
         
         cameraController = CameraController()
         cameraController.deepAR = self.deepAR
@@ -366,3 +375,4 @@ extension String {
         return Bundle.main.path(forResource: self, ofType: nil)
     }
 }
+
