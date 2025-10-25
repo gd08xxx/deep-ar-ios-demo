@@ -19,24 +19,10 @@ enum RecordingMode : String {
 
 
 enum Effects: String, CaseIterable {
-    case viking_helmet = "viking_helmet.deepar"
-    case MakeupLook = "MakeupLook.deepar"
-    case Split_View_Look = "Split_View_Look.deepar"
-    case Emotions_Exaggerator = "Emotions_Exaggerator.deepar"
-    case Emotion_Meter = "Emotion_Meter.deepar"
-    case Stallone = "Stallone.deepar"
-    case flower_face = "flower_face.deepar"
-    case galaxy_background = "galaxy_background.deepar"
-    case Humanoid = "Humanoid.deepar"
-    case Neon_Devil_Horns = "Neon_Devil_Horns.deepar"
-    case Ping_Pong = "Ping_Pong.deepar"
-    case Pixel_Hearts = "Pixel_Hearts.deepar"
-    case Snail = "Snail.deepar"
-    case Hope = "Hope.deepar"
-    case Vendetta_Mask = "Vendetta_Mask.deepar"
-    case Fire_Effect = "Fire_Effect.deepar"
-    case burning_effect = "burning_effect.deepar"
-    case Elephant_Trunk = "Elephant_Trunk.deepar"
+    case Bloobloom_BB_172_optimist_in_honey_honey_Clear_v2 = "Bloobloom-BB-172-optimist-in-honey-honey-Clear-v2.deepar"
+    case Prada_Linea_Rossa_PS_54YS_1BO06U_74_03_v2_Compressed = "Prada Linea Rossa-PS 54YS 1BO06U 74-03-v2-Compressed.deepar"
+    case RB218060171 = "RB218060171.deepar"
+    case RB36899064S2 = "RB36899064S2.deepar"
 }
 
 class ViewController: UIViewController {

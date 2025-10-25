@@ -12,27 +12,13 @@
 		19FB9DAC239E65ED0056E3AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19FB9DAA239E65ED0056E3AB /* Main.storyboard */; };
 		19FB9DAE239E65EE0056E3AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19FB9DAD239E65EE0056E3AB /* Assets.xcassets */; };
 		19FB9DB1239E65EE0056E3AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19FB9DAF239E65EE0056E3AB /* LaunchScreen.storyboard */; };
+		56596C4D2EAC9593006527A6 /* Prada Linea Rossa-PS 54YS 1BO06U 74-03-v2-Compressed.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 56596C4A2EAC9593006527A6 /* Prada Linea Rossa-PS 54YS 1BO06U 74-03-v2-Compressed.deepar */; };
+		56596C4E2EAC9593006527A6 /* Bloobloom-BB-172-optimist-in-honey-honey-Clear-v2.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 56596C492EAC9593006527A6 /* Bloobloom-BB-172-optimist-in-honey-honey-Clear-v2.deepar */; };
+		56596C4F2EAC9593006527A6 /* RB218060171.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 56596C4C2EAC9593006527A6 /* RB218060171.deepar */; };
+		56596C502EAC9593006527A6 /* RB36899064S2.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 56596C4B2EAC9593006527A6 /* RB36899064S2.deepar */; };
 		566CCCB02EAC84CD0036D0B7 /* LicenseKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = 566CCCAF2EAC84CD0036D0B7 /* LicenseKey.plist */; };
 		566CCCB22EAC85430036D0B7 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 566CCCB12EAC85430036D0B7 /* .gitignore */; };
 		662DAA532A65E36D002DE21D /* DeepAR in Frameworks */ = {isa = PBXBuildFile; productRef = 662DAA522A65E36D002DE21D /* DeepAR */; };
-		8DF1C83C2852328C002E231B /* Vendetta_Mask.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DF1C82A2852328B002E231B /* Vendetta_Mask.deepar */; };
-		8DF1C83D2852328C002E231B /* Humanoid.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DF1C82B2852328B002E231B /* Humanoid.deepar */; };
-		8DF1C83E2852328C002E231B /* Fire_Effect.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DF1C82C2852328B002E231B /* Fire_Effect.deepar */; };
-		8DF1C83F2852328C002E231B /* Neon_Devil_Horns.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DF1C82D2852328B002E231B /* Neon_Devil_Horns.deepar */; };
-		8DF1C8402852328C002E231B /* Hope.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DF1C82E2852328B002E231B /* Hope.deepar */; };
-		8DF1C8412852328C002E231B /* MakeupLook.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DF1C82F2852328B002E231B /* MakeupLook.deepar */; };
-		8DF1C8422852328C002E231B /* Split_View_Look.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DF1C8302852328B002E231B /* Split_View_Look.deepar */; };
-		8DF1C8432852328C002E231B /* viking_helmet.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DF1C8312852328B002E231B /* viking_helmet.deepar */; };
-		8DF1C8442852328C002E231B /* Emotion_Meter.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DF1C8322852328C002E231B /* Emotion_Meter.deepar */; };
-		8DF1C8452852328C002E231B /* Emotions_Exaggerator.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DF1C8332852328C002E231B /* Emotions_Exaggerator.deepar */; };
-		8DF1C8462852328C002E231B /* flower_face.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DF1C8342852328C002E231B /* flower_face.deepar */; };
-		8DF1C8472852328C002E231B /* burning_effect.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DF1C8352852328C002E231B /* burning_effect.deepar */; };
-		8DF1C8482852328C002E231B /* Elephant_Trunk.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DF1C8362852328C002E231B /* Elephant_Trunk.deepar */; };
-		8DF1C8492852328C002E231B /* Ping_Pong.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DF1C8372852328C002E231B /* Ping_Pong.deepar */; };
-		8DF1C84A2852328C002E231B /* Snail.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DF1C8382852328C002E231B /* Snail.deepar */; };
-		8DF1C84B2852328C002E231B /* Stallone.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DF1C8392852328C002E231B /* Stallone.deepar */; };
-		8DF1C84C2852328C002E231B /* galaxy_background.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DF1C83A2852328C002E231B /* galaxy_background.deepar */; };
-		8DF1C84D2852328C002E231B /* Pixel_Hearts.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DF1C83B2852328C002E231B /* Pixel_Hearts.deepar */; };
 		9A49710124FE579800DD9C86 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A49710024FE579800DD9C86 /* StartViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,26 +43,12 @@
 		19FB9DAD239E65EE0056E3AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19FB9DB0239E65EE0056E3AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19FB9DB2239E65EE0056E3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56596C492EAC9593006527A6 /* Bloobloom-BB-172-optimist-in-honey-honey-Clear-v2.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bloobloom-BB-172-optimist-in-honey-honey-Clear-v2.deepar"; sourceTree = "<group>"; };
+		56596C4A2EAC9593006527A6 /* Prada Linea Rossa-PS 54YS 1BO06U 74-03-v2-Compressed.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prada Linea Rossa-PS 54YS 1BO06U 74-03-v2-Compressed.deepar"; sourceTree = "<group>"; };
+		56596C4B2EAC9593006527A6 /* RB36899064S2.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = RB36899064S2.deepar; sourceTree = "<group>"; };
+		56596C4C2EAC9593006527A6 /* RB218060171.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = RB218060171.deepar; sourceTree = "<group>"; };
 		566CCCAF2EAC84CD0036D0B7 /* LicenseKey.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = LicenseKey.plist; sourceTree = "<group>"; };
 		566CCCB12EAC85430036D0B7 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		8DF1C82A2852328B002E231B /* Vendetta_Mask.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Vendetta_Mask.deepar; sourceTree = "<group>"; };
-		8DF1C82B2852328B002E231B /* Humanoid.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Humanoid.deepar; sourceTree = "<group>"; };
-		8DF1C82C2852328B002E231B /* Fire_Effect.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fire_Effect.deepar; sourceTree = "<group>"; };
-		8DF1C82D2852328B002E231B /* Neon_Devil_Horns.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Neon_Devil_Horns.deepar; sourceTree = "<group>"; };
-		8DF1C82E2852328B002E231B /* Hope.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hope.deepar; sourceTree = "<group>"; };
-		8DF1C82F2852328B002E231B /* MakeupLook.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = MakeupLook.deepar; sourceTree = "<group>"; };
-		8DF1C8302852328B002E231B /* Split_View_Look.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Split_View_Look.deepar; sourceTree = "<group>"; };
-		8DF1C8312852328B002E231B /* viking_helmet.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = viking_helmet.deepar; sourceTree = "<group>"; };
-		8DF1C8322852328C002E231B /* Emotion_Meter.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Emotion_Meter.deepar; sourceTree = "<group>"; };
-		8DF1C8332852328C002E231B /* Emotions_Exaggerator.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Emotions_Exaggerator.deepar; sourceTree = "<group>"; };
-		8DF1C8342852328C002E231B /* flower_face.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = flower_face.deepar; sourceTree = "<group>"; };
-		8DF1C8352852328C002E231B /* burning_effect.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = burning_effect.deepar; sourceTree = "<group>"; };
-		8DF1C8362852328C002E231B /* Elephant_Trunk.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Elephant_Trunk.deepar; sourceTree = "<group>"; };
-		8DF1C8372852328C002E231B /* Ping_Pong.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ping_Pong.deepar; sourceTree = "<group>"; };
-		8DF1C8382852328C002E231B /* Snail.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Snail.deepar; sourceTree = "<group>"; };
-		8DF1C8392852328C002E231B /* Stallone.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Stallone.deepar; sourceTree = "<group>"; };
-		8DF1C83A2852328C002E231B /* galaxy_background.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = galaxy_background.deepar; sourceTree = "<group>"; };
-		8DF1C83B2852328C002E231B /* Pixel_Hearts.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pixel_Hearts.deepar; sourceTree = "<group>"; };
 		9A49710024FE579800DD9C86 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,24 +67,10 @@
 		198B5D5C239FDE4F0035E21B /* Effects */ = {
 			isa = PBXGroup;
 			children = (
-				8DF1C83B2852328C002E231B /* Pixel_Hearts.deepar */,
-				8DF1C8352852328C002E231B /* burning_effect.deepar */,
-				8DF1C8362852328C002E231B /* Elephant_Trunk.deepar */,
-				8DF1C8322852328C002E231B /* Emotion_Meter.deepar */,
-				8DF1C8332852328C002E231B /* Emotions_Exaggerator.deepar */,
-				8DF1C82C2852328B002E231B /* Fire_Effect.deepar */,
-				8DF1C8342852328C002E231B /* flower_face.deepar */,
-				8DF1C83A2852328C002E231B /* galaxy_background.deepar */,
-				8DF1C82E2852328B002E231B /* Hope.deepar */,
-				8DF1C82B2852328B002E231B /* Humanoid.deepar */,
-				8DF1C82F2852328B002E231B /* MakeupLook.deepar */,
-				8DF1C82D2852328B002E231B /* Neon_Devil_Horns.deepar */,
-				8DF1C8372852328C002E231B /* Ping_Pong.deepar */,
-				8DF1C8382852328C002E231B /* Snail.deepar */,
-				8DF1C8302852328B002E231B /* Split_View_Look.deepar */,
-				8DF1C8392852328C002E231B /* Stallone.deepar */,
-				8DF1C82A2852328B002E231B /* Vendetta_Mask.deepar */,
-				8DF1C8312852328B002E231B /* viking_helmet.deepar */,
+				56596C492EAC9593006527A6 /* Bloobloom-BB-172-optimist-in-honey-honey-Clear-v2.deepar */,
+				56596C4A2EAC9593006527A6 /* Prada Linea Rossa-PS 54YS 1BO06U 74-03-v2-Compressed.deepar */,
+				56596C4B2EAC9593006527A6 /* RB36899064S2.deepar */,
+				56596C4C2EAC9593006527A6 /* RB218060171.deepar */,
 			);
 			path = Effects;
 			sourceTree = "<group>";
@@ -215,29 +173,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DF1C84C2852328C002E231B /* galaxy_background.deepar in Resources */,
 				19FB9DB1239E65EE0056E3AB /* LaunchScreen.storyboard in Resources */,
-				8DF1C83F2852328C002E231B /* Neon_Devil_Horns.deepar in Resources */,
-				8DF1C84D2852328C002E231B /* Pixel_Hearts.deepar in Resources */,
-				8DF1C8442852328C002E231B /* Emotion_Meter.deepar in Resources */,
+				56596C4D2EAC9593006527A6 /* Prada Linea Rossa-PS 54YS 1BO06U 74-03-v2-Compressed.deepar in Resources */,
+				56596C4E2EAC9593006527A6 /* Bloobloom-BB-172-optimist-in-honey-honey-Clear-v2.deepar in Resources */,
+				56596C4F2EAC9593006527A6 /* RB218060171.deepar in Resources */,
+				56596C502EAC9593006527A6 /* RB36899064S2.deepar in Resources */,
 				566CCCB22EAC85430036D0B7 /* .gitignore in Resources */,
-				8DF1C8432852328C002E231B /* viking_helmet.deepar in Resources */,
-				8DF1C83C2852328C002E231B /* Vendetta_Mask.deepar in Resources */,
 				19FB9DAE239E65EE0056E3AB /* Assets.xcassets in Resources */,
-				8DF1C84B2852328C002E231B /* Stallone.deepar in Resources */,
-				8DF1C84A2852328C002E231B /* Snail.deepar in Resources */,
-				8DF1C8472852328C002E231B /* burning_effect.deepar in Resources */,
 				19FB9DAC239E65ED0056E3AB /* Main.storyboard in Resources */,
-				8DF1C8482852328C002E231B /* Elephant_Trunk.deepar in Resources */,
-				8DF1C83D2852328C002E231B /* Humanoid.deepar in Resources */,
-				8DF1C8462852328C002E231B /* flower_face.deepar in Resources */,
-				8DF1C8452852328C002E231B /* Emotions_Exaggerator.deepar in Resources */,
-				8DF1C8412852328C002E231B /* MakeupLook.deepar in Resources */,
-				8DF1C8492852328C002E231B /* Ping_Pong.deepar in Resources */,
 				566CCCB02EAC84CD0036D0B7 /* LicenseKey.plist in Resources */,
-				8DF1C8402852328C002E231B /* Hope.deepar in Resources */,
-				8DF1C83E2852328C002E231B /* Fire_Effect.deepar in Resources */,
-				8DF1C8422852328C002E231B /* Split_View_Look.deepar in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
